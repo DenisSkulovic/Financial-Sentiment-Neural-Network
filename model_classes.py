@@ -36,7 +36,7 @@ class NNModelHandler:
         else:
             self.embedding_matrix = self._get_embedding_matrix(embedding_file_loc)
             self.model = self._compile_NN_model()
-            self.model.train_NN_model()
+            self.train_NN_model()
     
     
     # @dcl.timer
